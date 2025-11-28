@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "intermagia",
+	"version": "${version}",
+	"name": "Intermagia",
+	"description": "Intermagia mod by Julie <3",
+	"authors": [
+		"JulieHatsune"
+	],
+	"contact": {
+		"homepage": "https://github.com/JulieHatsune",
+		"sources": "https://github.com/JulieHatsune/intermagia-fabric"
+	},
+	"license": "MIT",
+	"icon": "assets/intermagia/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.juliehatsune.intermagia.Intermagia"
+		],
+		"fabric-datagen": [
+			"com.juliehatsune.intermagia.IntermagiaDataGenerator"
+		],
+		"client": [
+			"com.juliehatsune.intermagia.IntermagiaClient"
+		]
+	},
+	"mixins": [
+		"intermagia.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
