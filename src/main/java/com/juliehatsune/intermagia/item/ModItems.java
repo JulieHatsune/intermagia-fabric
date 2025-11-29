@@ -4,15 +4,29 @@ import com.juliehatsune.intermagia.Intermagia;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
+
+import java.util.function.Function;
 
 public class ModItems {
 
-    public static final Item SOUL_INFUSED_TANTALUM_INGOT = registerItem("soul_infused_tantalum_ingot", new Item(new Item.Settings()));
+    public static final Item SOUL_INFUSED_TANTALUM_INGOT = registerItem("soul_infused_tantalum_ingot", Item::new);
+    public static final Item SOUL_INFUSED_TANTALUM_GEAR = registerItem("soul_infused_tantalum_gear", Item::new);
 
-    private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(Intermagia.MOD_ID, name), item);
+    public static final Item INFUSED_TANTALUM_INGOT = registerItem("infused_tantalum_ingot", Item::new);
+    public static final Item INFUSED_TANTALUM_GEAR = registerItem("infused_tantalum_gear", Item::new);
+
+    public static final Item TANTALUM_INGOT = registerItem("tantalum_ingot", Item::new);
+    public static final Item TANTALUM_GEAR = registerItem("tantalum_gear", Item::new);
+
+    private static Item registerItem(String name, Function<Item.Settings, Item> function) {
+        return Registry.register(Registries.ITEM, Identifier.of(Intermagia.MOD_ID, name),
+                function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Intermagia.MOD_ID, name)))));
     }
+
+
 
     public static void registerModItems() {
         Intermagia.LOGGER.info("Registering Mod Items for " + Intermagia.MOD_ID);
