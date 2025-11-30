@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "intermagia:block/cardboard_box_side",
+    "down": "intermagia:block/cardboard_box_bottom",
+    "up": "intermagia:block/cardboard_box_top",
+    "north": "intermagia:block/cardboard_box_front",
+    "south": "intermagia:block/cardboard_box_front",
+    "west": "intermagia:block/cardboard_box_side",
+    "east": "intermagia:block/cardboard_box_side"
+  }
+}

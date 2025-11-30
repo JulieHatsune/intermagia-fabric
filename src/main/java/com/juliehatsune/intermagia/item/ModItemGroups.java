@@ -1,6 +1,7 @@
 package com.juliehatsune.intermagia.item;
 
 import com.juliehatsune.intermagia.Intermagia;
+import com.juliehatsune.intermagia.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -22,6 +23,12 @@ public class ModItemGroups {
                         entries.add(ModItems.INFUSED_TANTALUM_GEAR);
                         entries.add(ModItems.TANTALUM_INGOT);
                         entries.add(ModItems.TANTALUM_GEAR);
+                        entries.add(ModItems.IRON_GEAR);
+                        entries.add(ModItems.CUTTER);
+                        entries.add(ModItems.HAMMER);
+                        entries.add(ModItems.ELECTRONIC_PARTS);
+                        entries.add(ModItems.SOULIUM_PLASMA);
+                        entries.add(ModBlocks.CARDBOARD_BOX);
                     }).build());
 
 

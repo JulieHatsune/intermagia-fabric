@@ -1,5 +1,6 @@
 package com.juliehatsune.intermagia;
 
+import com.juliehatsune.intermagia.block.ModBlocks;
 import com.juliehatsune.intermagia.item.ModItemGroups;
 import com.juliehatsune.intermagia.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +16,6 @@ public class Intermagia implements ModInitializer {
 	public void onInitialize() {
         ModItems.registerModItems();
         ModItemGroups.registerItemGroups();
+        ModBlocks.registerModBlocks();
     }
 }

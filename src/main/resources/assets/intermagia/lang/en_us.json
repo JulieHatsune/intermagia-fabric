@@ -5,5 +5,18 @@
   "item.intermagia.infused_tantalum_gear": "Infused Tantalum Gear",
   "item.intermagia.tantalum_ingot": "Tantalum Ingot",
   "item.intermagia.tantalum_gear": "Tantalum Gear",
+  "item.intermagia.iron_gear": "Iron Gear",
+
+  "block.intermagia.cardboard_box": "Cardboard Box™",
+
+  "item.intermagia.electronic_parts": "Electronic Parts™",
+
+  "item.intermagia.hammer": "Hammer™",
+  "item.intermagia.cutter": "Cutter™",
+
+  "item.intermagia.soulium_plasma": "Soulium Plasma",
+
+
+
   "itemgroup.intermagia.intermagia_group": "Intermagia"
 }
