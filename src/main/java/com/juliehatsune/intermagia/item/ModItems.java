@@ -21,6 +21,7 @@ public class ModItems {
     public static final Item IRON_GEAR = registerItem("iron_gear", Item::new);
 
     public static final Item ELECTRONIC_PARTS = registerItem("electronic_parts", Item::new);
+    public static final Item MURANIUM_FUEL_ROD = registerItem("muranium_fuel_rod", Item::new);
 
     public static final Item CUTTER = registerItem("cutter", Item::new);
     public static final Item HAMMER = registerItem("hammer", Item::new);

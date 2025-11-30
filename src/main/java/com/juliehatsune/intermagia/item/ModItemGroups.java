@@ -27,8 +27,28 @@ public class ModItemGroups {
                         entries.add(ModItems.CUTTER);
                         entries.add(ModItems.HAMMER);
                         entries.add(ModItems.ELECTRONIC_PARTS);
+                        entries.add(ModItems.MURANIUM_FUEL_ROD);
                         entries.add(ModItems.SOULIUM_PLASMA);
                         entries.add(ModBlocks.CARDBOARD_BOX);
+
+                        entries.add(ModBlocks.MONO_BLACK);
+                        entries.add(ModBlocks.MONO_BLUE);
+                        entries.add(ModBlocks.MONO_BROWN);
+                        entries.add(ModBlocks.MONO_CYAN);
+                        entries.add(ModBlocks.MONO_GRAY);
+                        entries.add(ModBlocks.MONO_GREEN);
+                        entries.add(ModBlocks.MONO_LIGHT_BLUE);
+                        entries.add(ModBlocks.MONO_LIGHT_GRAY);
+                        entries.add(ModBlocks.MONO_LIME);
+                        entries.add(ModBlocks.MONO_MAGENTA);
+                        entries.add(ModBlocks.MONO_ORANGE);
+                        entries.add(ModBlocks.MONO_PINK);
+                        entries.add(ModBlocks.MONO_PURPLE);
+                        entries.add(ModBlocks.MONO_RED);
+                        entries.add(ModBlocks.MONO_WHITE);
+                        entries.add(ModBlocks.MONO_YELLOW);
+                        entries.add(ModBlocks.MONO_RAINBOW);
+
                     }).build());
 
 
